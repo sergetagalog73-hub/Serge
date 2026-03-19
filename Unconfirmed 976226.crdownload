@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serge BBQ - Premium Barbecue Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🔥 Serge BBQ</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>🔥 Serge BBQ 🔥</h1>
+            <p>Authentic Pit-Smoked Barbecue Made Fresh Daily</p>
+            <button class="cta-button">Reserve a Table</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Serge BBQ</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Serge BBQ was founded with a passion for authentic, slow-smoked barbecue. We believe in using only the finest cuts of meat, traditional smoking techniques, and family-secret recipes passed down through generations. Every plate that leaves our kitchen is a testament to our commitment to excellence.</p>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <div class="value-card">
+                    <h4>🎯 Our Mission</h4>
+                    <p>To serve our community the most authentic, flavorful, and high-quality barbecue experience, one smoked meal at a time.</p>
+                </div>
+                <div class="value-card">
+                    <h4>🚀 Our Vision</h4>
+                    <p>To become the most trusted and beloved BBQ destination in the region, recognized for our quality, service, and passion for barbecue excellence.</p>
+                </div>
+                <div class="value-card">
+                    <h4>⭐ Our Values</h4>
+                    <p>Quality ingredients, authentic recipes, exceptional customer service, and creating memorable dining experiences for every guest.</p>
+                </div>
+            </div>
+
+            <div class="goals-section">
+                <h3>Our Goals</h3>
+                <ul class="goals-list">
+                    <li>✓ Maintain the highest quality standards in every dish we prepare</li>
+                    <li>✓ Expand our menu offerings while honoring traditional BBQ methods</li>
+                    <li>✓ Build a loyal community of BBQ enthusiasts and food lovers</li>
+                    <li>✓ Achieve recognition as the top-rated BBQ restaurant in the area</li>
+                    <li>✓ Create an inviting atmosphere where families and friends gather to celebrate</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Featured Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <h3>Smoked Brisket Platter</h3>
+                    <p>Slow-smoked for 14 hours, served with sides and cornbread</p>
+                    <span class="price">$24.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Pulled Pork Sandwich</h3>
+                    <p>Tender pulled pork with our signature BBQ sauce on a toasted bun</p>
+                    <span class="price">$14.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Smoked Ribs Rack</h3>
+                    <p>Fall-off-the-bone ribs glazed with our house-made BBQ sauce</p>
+                    <span class="price">$26.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>BBQ Chicken Quarter</h3>
+                    <p>Herb-brined and smoked chicken, incredibly juicy and flavorful</p>
+                    <span class="price">$16.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>The Serge Combo</h3>
+                    <p>Brisket, ribs, pulled pork, and chicken - a taste of everything!</p>
+                    <span class="price">$39.99</span>
+                </div>
+                <div class="menu-item">
+                    <h3>Smoked Turkey Breast</h3>
+                    <p>Premium turkey smoked with oak wood, lean and delicious</p>
+                    <span class="price">$18.99</span>
+                </div>
+            </div>
+            <p class="menu-note">All platters include choice of two sides: mac & cheese, collard greens, baked beans, or cornbread</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Guests Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"The brisket here is absolutely incredible. Best BBQ I've ever had!"</p>
+                    <strong>- Marcus T.</strong>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Family-owned charm with world-class food. Can't recommend Serge BBQ enough!"</p>
+                    <strong>- Jennifer L.</strong>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Worth every penny. The attention to detail in their smoking process really shows."</p>
+                    <strong>- David R.</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p><strong>📍 Location:</strong><br>123 Smoke Lane, BBQ City, ST 12345</p>
+                    <p><strong>📞 Phone:</strong><br>(555) 123-4567</p>
+                    <p><strong>📧 Email:</strong><br>hello@sergebbq.com</p>
+                    <p><strong>⏰ Hours:</strong><br>
+                        Mon-Thu: 11 AM - 10 PM<br>
+                        Fri-Sat: 11 AM - 11 PM<br>
+                        Sun: 12 PM - 9 PM
+                    </p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/sergebbq" target="_blank">Facebook</a>
+                        <a href="https://instagram.com/sergebbq" target="_blank">Instagram</a>
+                        <a href="https://twitter.com/sergebbq" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Serge BBQ. All rights reserved. | Crafted with passion and smoke 🔥</p>
+            <p>Made with ❤️ for BBQ lovers everywhere</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
